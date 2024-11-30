@@ -1,6 +1,6 @@
 export {};
 
-const nextYearSalary = (currentSalary: number, rate: number = 1.1) => {
+const nextYearSalary = (currentSalary: number, rate: number = 1.1):number => {
   return currentSalary * rate;
 };
 
